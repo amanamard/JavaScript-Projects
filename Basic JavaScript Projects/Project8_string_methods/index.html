@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Project8 String Methods</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <!-- concat() method -->
+        <p id="concatenate" onclick="concatenateFunction()">Click here to see concat() method in action.</p>
+        
+        <!-- slice() method -->
+        <p id="slice" onclick="sliceFunction()">Click here to display a string from a slice() method.</p>
+
+        <!-- toUpperCase() method -->
+         <p><strong>The toUpperCase() method converts a string to uppercase letters.</strong></p>
+        
+         <button onclick="toUpperCaseFunction()">Try it!</button>
+        <p id="to_UpperCase">Hello There!</p>
+
+        <!-- search() method -->
+         <p><strong>
+            The search() method matches a string against a regular expression<br>
+            and then returns the index (position) of the first match.<br>
+            If no match is found, it returns -1. The search() method is case sensitive.
+         </strong></p>
+        
+         <p>The sky is the limit.</p>
+        <p id="search" onclick="searchFunction()">Search for "sky" position in the sentence above here!</p>
+
+        <!-- toString() method -->
+        <p id="to_string" onclick="to_stringFunction()">Click here to display a number as a string.</p>
+
+        <!-- toPrecision() method -->
+        <p id="to_Precision" onclick="to_PrecisionFunction()">Click here to display toPrecision() on 123.456789</p>
+
+        <!-- toFixed() method -->
+        <p><strong>
+            The toFixed() method converts a number to a string.<br>
+            It rounds the string to a specified number of decimals.
+        </strong></p>
+
+        <p id="to_Fixed" onclick="to_FixedFunction()">Apply toFixed() method to 23.456789 here!</p>
+        
+        <!-- valuueOf() method -->
+        <p><strong>
+            The valueOf() method returns the primitive value of a string.
+        </strong></p>
+
+        <p id="value_Of" onclick="value_Of_Function()">Apply valueOf() to "This is a string." here!</p>
+
+        <script src="JS/main.js"></script>
+    </body>
+</html>
